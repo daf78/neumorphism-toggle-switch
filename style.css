@@ -36,3 +36,11 @@ input[type="checkbox"]
     outline: none;
     cursor: pointer;
 }
+
+input[type="checkbox"]:before,
+input[type="checkbox"]:after
+{
+    content: "";
+    position: absolute;
+    margin: auto;
+}
