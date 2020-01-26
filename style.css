@@ -66,3 +66,8 @@ input[type="checkbox"]:after
     border-radius: 50%;
     right: -3.8rem;
 }
+
+input[type="checkbox"]:checked:before
+{
+    left: 5.3rem;
+}
